@@ -51,34 +51,6 @@ function App() {
 
     <p>Well, what color are these vegetables/fruits? The slides below clarify that:</p>
 
-    {/*
-      make a carousel
-    */}
-
-    <Carousel>
-      <Carousel.Item>
-        <ExampleCarouselImage text="First slide" />
-        <Carousel.Caption>
-          <h3>Apples are red</h3>
-          <p>Text</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <ExampleCarouselImage text="Second slide" />
-        <Carousel.Caption>
-        <h3>Bananas are yellow</h3>
-        <p>Text</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <ExampleCarouselImage text="Third slide" />
-        <Carousel.Caption>
-        <h3>Carrots are orange</h3>
-        <p>Text</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-
   </div>
   )
 }
