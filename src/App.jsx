@@ -26,30 +26,48 @@ function App() {
       The vegetables are pictured below.
     </p>
 
-    <Image
-        src="src/assets/apple.png"
-        rounded
-        width="30%"
-        style={ {paddingTop: 60, paddingBottom: 60} }
-    />
-    
-    <Image
-        src="src/assets/banana.png"
-        rounded
-        width="30%"
-        style={ {paddingTop: 60, paddingBottom: 60} }
-    />
-    
-    <Image
-        src="src/assets/carrots.png"
-        rounded
-        width="30%"
-        style={ {paddingTop: 60, paddingBottom: 60} }
-    />
-
     {/*
-      make a button
+      make a carousel
     */}
+
+    <Carousel>
+      <Carousel.Item>
+        <ExampleCarouselImage text="First slide" />
+        <Carousel.Caption>
+          <h3>Apple</h3>
+          <Image
+            src="src/assets/apple.png"
+            rounded
+            width="30%"
+            style={ {paddingTop: 60, paddingBottom: 60} }
+          />
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <ExampleCarouselImage text="Second slide" />
+        <Carousel.Caption>
+          <h3>Banana</h3>
+          <Image
+            src="src/assets/banana.png"
+            rounded
+            width="30%"
+            style={ {paddingTop: 60, paddingBottom: 60} }
+          />
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <ExampleCarouselImage text="Third slide" />
+        <Carousel.Caption>
+          <h3>Carrots</h3>
+          <Image
+            src="src/assets/carrots.png"
+            rounded
+            width="30%"
+            style={ {paddingTop: 60, paddingBottom: 60} }
+          />
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
 
   </div>
   )
