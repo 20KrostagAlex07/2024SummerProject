@@ -26,6 +26,31 @@ function App() {
       The vegetables are pictured below.
     </p>
 
+    <Image
+            src="src/assets/apple.png"
+            rounded
+            width="30%"
+            style={ {paddingTop: 60, paddingBottom: 60} }
+          />
+
+    <Image
+            src="src/assets/banana.png"
+            rounded
+            width="30%"
+            style={ {paddingTop: 60, paddingBottom: 60} }
+          /> 
+
+    <Image
+            src="src/assets/carrots.png"
+            rounded
+            width="30%"
+            style={ {paddingTop: 60, paddingBottom: 60} }
+          />
+
+    <hr></hr>
+
+    <p>Well, what color are these vegetables/fruits? The slides below clarify that:</p>
+
     {/*
       make a carousel
     */}
@@ -34,37 +59,19 @@ function App() {
       <Carousel.Item>
         <ExampleCarouselImage text="First slide" />
         <Carousel.Caption>
-          <h3>Apple</h3>
-          <Image
-            src="src/assets/apple.png"
-            rounded
-            width="30%"
-            style={ {paddingTop: 60, paddingBottom: 60} }
-          />
+          <h3>Apples are red</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <ExampleCarouselImage text="Second slide" />
         <Carousel.Caption>
-          <h3>Banana</h3>
-          <Image
-            src="src/assets/banana.png"
-            rounded
-            width="30%"
-            style={ {paddingTop: 60, paddingBottom: 60} }
-          />
+        <h3>Bananas are yellow</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <ExampleCarouselImage text="Third slide" />
         <Carousel.Caption>
-          <h3>Carrots</h3>
-          <Image
-            src="src/assets/carrots.png"
-            rounded
-            width="30%"
-            style={ {paddingTop: 60, paddingBottom: 60} }
-          />
+        <h3>Carrots are orange</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
