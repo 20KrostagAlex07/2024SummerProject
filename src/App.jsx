@@ -47,10 +47,6 @@ function App() {
             style={ {paddingTop: 60, paddingBottom: 60} }
           />
 
-    <hr></hr>
-
-    <p>Well, what color are these vegetables/fruits? The slides below clarify that:</p>
-
   </div>
   )
 }
